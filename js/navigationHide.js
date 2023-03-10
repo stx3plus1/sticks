@@ -7,11 +7,9 @@ if (isMobile) {
 function scrollFunction() {
   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 25) {
     document.getElementById("sidenav").style.left = "-61px";
-    wait(0.5)
     document.getElementById("page").style.paddingLeft = "5px";
   } else {
     document.getElementById("sidenav").style.left = "0";
-    wait(0.5)
     document.getElementById("page").style.paddingLeft = "75px";
   }
 }
