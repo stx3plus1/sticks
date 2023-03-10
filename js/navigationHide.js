@@ -2,9 +2,8 @@ var isMobile = window.orientation > -1;
 
 if (isMobile) {
   window.onscroll = function() {scrollFunction()};
+  window.onscroll = function() {scrollFunctionP2()};
 }
-
-window.onscroll = function() {scrollFunctionP2()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 25) {
