@@ -31,26 +31,29 @@ section .wave {
 }
 
 section .wave.wave1 {
-    animation: animate 8s linear infinite;
+    animation: animate 12s linear infinite;
     z-index: 1000;
     opacity: 1;
     animation-delay: 0s;
-    bottom: 0;
+    bottom: -1vh;
+    overflow: hidden;
 }
 
 section .wave.wave2 {
-    animation: animate 19s linear infinite;
+    animation: animate 17s linear infinite;
     z-index: 999;
     opacity: 0.5;
     animation-delay: -5s;
-    bottom: -10px;
+    bottom: -0.5vh;
+    overflow: hidden;
 }
 section .wave.wave3 {
-    animation: animate 15s linear infinite;
+    animation: animate 20s linear infinite;
     z-index: 998;
     opacity: 0.3;
     animation-delay: -8s;
-    bottom: -20px;
+    bottom: -0.2vh;
+    overflow: hidden;
 }
 
 @keyframes animate {

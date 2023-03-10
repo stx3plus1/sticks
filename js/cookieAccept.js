@@ -6,11 +6,11 @@ var cookieExpireDays=1000000000000;
 let acceptCookie= document.getElementById("acceptCookie");
 acceptCookie.onclick= function(){
     createCookie(cookieName, cookieValue, cookieExpireDays);
-    document.getElementById("cookiePopup").style.bottom = "-400px";
+    document.getElementById("cookiePopup").style.right = "-90vw";
 }
 let denyCookie = document.getElementById("denyCookie");
 denyCookie.onclick = function(){
-    document.getElementById("cookiePopup").style.bottom = "-400px"
+    document.getElementById("cookiePopup").style.right = "-90vw"
 }
 
 // function to set cookie in web browser
@@ -20,7 +20,7 @@ denyCookie.onclick = function(){
   let expires = "expires=" + currentDate.toGMTString();
   document.cookie = cookieName + "=" + cookieValue + ";" + expires + ";path=/";
   if(document.cookie){
-    document.getElementById("cookiePopup").style.bottom = "-190px";
+    document.getElementById("cookiePopup").style.right = "-90vw";
   }else{
     alert("Please unblock cookies to accept them!");
   }
