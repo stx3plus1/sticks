@@ -1,33 +1,60 @@
 <!DOCTYPE html>
-		<title>interstarz.</title>
-		<link rel="stylesheet" href="css/style.css">
-		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-		<link rel="icon" href="pagecontent/all/favicon.png">
-		<head> 
-			<script src="jquery.js"></script> 
-			<script> 
-			$(function(){
-			  $("#includedContent").load("header/header.html"); 
-			});
-			</script> 
-			<meta name="viewport" content="width=device-width, initial-scale=1" /> 
-		  </head>
-	<body>
-		<div id="includedContent"></div>
-        <main>
-			<br>
-            <h1 class="big">Internet Finder</h1>
-            <p1>Internet Finder is a multipurpose browser that is just kind of... here.</p1>
-			<br>
-			<p1>I can't really say much as I currently cannot open any of the files.</p1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default-styles.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon" id="faviconTag">
+    <script src="js/cookieAccept.js" defer></script>
+    <script src="js/faviconChange.js" defer></script>
+    <script src="js/navigationHide.js"></script>
+    <title>interstarz.</title>
+</head>
+<body>
+    <nav id="sidenav">
+        <a class="logo" href="/home"><h2>i.</h2></a>
+        <ul class="nav-links">
+            <li><a href="windows-limeover"><img src="content/nav/windows.png" title="Windows Limeover" class="navimg"></a></li>
+            <li><a href="javascript:void(0)"><img src="content/nav/internetfinder.PNG" title="Internet Finder" class="navimg"></a></li>
+            <li><a href="colours-update-log"><img src="content/nav/coloured.png" title="Colours Update Log" class="navimg"></a></li>
+            <li><a href="search"><img src="content/nav/search.png" title="Search" class="navimg"></a></li>
+        </ul>
+    </nav>
+    <div class="cookiePopupContainer">
+        <div id="cookiePopup">
+            <h4>Cookie Consent</h4>
+            <p>interstarz uses cookies to enhance your experience on the site. By pressing deny, the site may not function.</p>
+            <div class="middle">
+                <button id="acceptCookie">Accept</button> 
+                <button id="denyCookie">Deny</button> 
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="page" id="page">
+        <br>
+        <div class="middle">
+            <img class="blackbg scaley2" draggable="false" src="content/internet-finder/sortawordmark.PNG">
+        </div>
+        <br>
+        <img class="sideimg1" draggable="false" src="content/internet-finder/internetfinderlogo.png">
+        <div class="sideimg2">
+            <h1>Internet Finder</h1>
+            <p>Internet Finder is a browser that I make in my spare time too (in other words still not often)
+            <br>
+            I decided to make it after I got bored of IE 11 and wanted to make something similar.
+            <br>
+            Right now, I have yet to find enough source files to actually make a fully working version.
+            <br>
+            Meanwhile, download version 40 or version 31 (longest supported release)
+            </p>
+            <a href="https://dl.interstarz.dev/InternetFinder40.zip"><button class="middle" >Download V40!</button></a>
             <br><br>
-			<a href="downloads/IF41.zip"><button>Download Version 41 (Unstable)</button></a>
-			<a href="downloads/Icon.zip"><button>Download the icon source!</button></a>
-			<br><br>
-			<p1>Ping me on </p1>
-			<a class="link" href="https://www.discord.gg/bn3UFBgfj4">Discord</a>
-			<p1>if you want all the versions to be downloadable!</p1>
-			<br>
-			<p1 class="small">P.S. You can click 'Discord' to join my server!</p1>
-		</main>
-    </body>
+            <a href="https://dl.interstarz.dev/InternetFinder31.zip"><button class="middle" >Download V31!</button></a>
+        </div>
+    </div>
+</body>
+</html>

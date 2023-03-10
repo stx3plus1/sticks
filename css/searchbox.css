@@ -1,0 +1,24 @@
+form {
+    width: 95%;
+  }
+  
+  input {
+    padding: 5px 10px;
+    border: 0;
+    font-size: 14px;
+  }
+  
+  .search {
+    width: 75%;
+    height: 30px;
+    border-radius: 30px;
+  }
+  
+  .submit {
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+  

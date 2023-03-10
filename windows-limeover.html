@@ -1,54 +1,81 @@
 <!DOCTYPE html>
-	<html>
-        <title>Windows Limeover</title>
-        <link rel="stylesheet" href="css/style.css">
-		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-		<link rel="icon" href="pagecontent/all/favicon.png">
-        <script src="js/limeover.js"></script>
-		<head> 
-			<script src="jquery.js"></script> 
-			<script> 
-			$(function(){
-			  $("#includedContent").load("header/header.html"); 
-			});
-			</script> 
-            <script src="jquery.js"></script> 
-			<script> 
-			$(function(){
-			  $("#morecontent").load("limedownload.html"); 
-			});
-			</script> 
-		  </head>
-        <body>
-            <div id="includedContent"></div>
-            <main class="side">
-                <h1 class="big">Windows Limeover</h1>
-                <br>
-                <p>Windows Limeover (formerly Windows Aero) is a custom operating system transformation pack that I make in my spare time.
-                    <br>
-                    (in other words, not often) 
-                    <br>
-                    I came up with it in mid 2021, after the cancelled Windows Stars met it's demise. Don't worry, I'm working on MILESTONE 4 now!
-                    <br>
-                    (that's for another time though)
-                    <br>
-                    You may download as you please.
-                    <br>
-                    Fun facts:</p>
-                    <ul>
-                        <li>Limeover is hard to make</li>
-                        <li>A custom theme is in the OS and it's really cool</li>
-                        <li>It's based on Windows 7 Ultimate</li>
-                        <li>You probably don't have it</li>
-                    </ul>
-                    <p>That last one is sad for me...</p>
-                        <p class="bold">*cri*</p>
-                        <p>OK, that's enough. Download it for good luck!</p>
-                    </main>
-            <div class="marginsize2">
-                <img class="invisible" src="pagecontent/windowslimeover/logo.png">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sidenav.css">
+    <link rel="stylesheet" href="css/default-styles.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon" id="faviconTag">
+    <script src="js/cookieAccept.js" defer></script>
+    <script src="js/faviconChange.js" defer></script>
+    <script src="js/navigationHide.js"></script>
+    <title>Windows Limeover</title>
+</head>
+<body>
+    <nav id="sidenav">
+        <a class="logo" href="/home"><h2>i.</h2></a>
+        <ul class="nav-links">
+            <li><a href="javascript:void(0)"><img src="content/nav/windows.png" title="Windows Limeover" class="navimg"></a></li>
+            <li><a href="internet-finder"><img src="content/nav/internetfinder.PNG" title="Internet Finder" class="navimg"></a></li>
+            <li><a href="colours-update-log"><img src="content/nav/coloured.png" title="Colours Update Log" class="navimg"></a></li>
+            <li><a href="search"><img src="content/nav/search.png" title="Search" class="navimg"></a></li>
+        </ul>
+    </nav>
+    <div class="cookiePopupContainer">
+        <div id="cookiePopup">
+            <h4>Cookie Consent</h4>
+            <p>interstarz uses cookies to enhance your experience on the site. By pressing deny, the site may not function.</p>
+            <div class="middle">
+                <button id="acceptCookie">Accept</button> 
+                <button id="denyCookie">Deny</button> 
             </div>
-            <br>
-            <div id="morecontent"></div>
-        </body>
-    </html>
+        </div>
+    </div>
+    <div class="page" id="page">
+        <br><br><br>
+        <div class="middle">
+            <img draggable="false" class="blackbg scaley" src="/content/windows-limeover/logowordmark.png" alt="Windows Limeover logo and wordmark.">
+        </div>
+        <br><br>
+        <img draggable="false" class="sideimg1" src="/content/windows-limeover/orb.png" alt="Windows Limeover Orb.">
+        <div class="sideimg2">
+            <h1>Windows Limeover</h1>
+            <a class="link middle" href="#download">Skip to download</a>
+            <p>
+                Windows Limeover is a custom operating system transformation pack that I make in my spare time...
+                <br>
+                (in other words, not often) 
+                <br>
+                I came up with it in mid 2021, after the cancelled Windows Stars met it's demise. Don't worry, I'm working on MILESTONE 4 now!
+                <br>
+                (that's for another time though)
+                <br>
+                You may download as you please.
+                <br>
+                Fun facts:
+                <br>
+                </p>
+                <ul>
+                    <li>Limeover is hard to make</li>
+                    <li>A custom theme is in the OS and it's really cool!</li>
+                    <li>It's based on Windows 7 (not Vista!)</li>
+                    <li>M4 is in production!</li>
+                    <li>You PROBABLY (keyword) don't have it...</li>
+                </ul>
+                <p>
+                That last one is sad for me
+                *cri*
+                <br>
+                OK, that's enough. Download it for good luck!
+                </p>
+        </div>
+        <div class="middle">
+            <br><br>
+            <h1 id="download">Download below!</h1>
+            <a href="https://dl.interstarz.dev/Limeover M3.zip"><img draggable="false" class="downloadicon" src="content/windows-limeover/download.png" alt="Windows Limeover Installer Icon."></a>
+        </div>
+    </div>
+</body>
+</html>
