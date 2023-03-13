@@ -73,7 +73,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-    #cookiePopup p {
+    #cookiePopup h4 {
     color: #4e4e4e
     }
 }
