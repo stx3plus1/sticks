@@ -72,6 +72,12 @@
     color: #4e4e4e;
 }
 
+@media (prefers-color-scheme: light) {
+    #cookiePopup p {
+    color: #4e4e4e
+    }
+}
+
 @media (max-width: 1180px) {
 
     .sideimg1 {
