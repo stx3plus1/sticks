@@ -40,6 +40,10 @@ nav:hover .nav-links {
     padding-bottom: 50px;
 }
 
+nav:hover {
+    background-color: rgba(33, 33, 40, 0.7);
+}
+
 .nav-links li a {
     text-decoration: none;
 }
