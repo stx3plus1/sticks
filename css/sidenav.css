@@ -10,11 +10,6 @@ nav {
     color: white;
     transition: 0.5s ease-in-out;
     z-index: 2;
-}
-
-nav:hover .nav-links {
-    margin-top: 20px;
-    margin-bottom: 20px;
 } 
 
 .logo {
@@ -37,7 +32,12 @@ nav:hover .nav-links {
 .nav-links {
     padding: 15px;
     list-style: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.8s ease-in-out;
+}
+
+nav:hover .nav-links {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .nav-links li a {
