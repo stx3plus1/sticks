@@ -13,8 +13,8 @@ nav {
 }
 
 nav:hover .nav-links {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 } 
 
 .logo {
