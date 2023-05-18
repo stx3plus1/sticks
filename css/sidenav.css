@@ -12,13 +12,10 @@ nav {
     z-index: 2;
 }
 
-/* nav:hover {
-    width: 120px;
-}
-
 nav:hover .nav-links {
-    padding: 45px;
-} */
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
 
 .logo {
     height: 60px;
