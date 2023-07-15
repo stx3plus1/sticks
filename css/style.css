@@ -2,6 +2,10 @@
     font-size: 1.2em;
 }
 
+.logo {
+    text-decoration: none;
+}
+
 .sideimg1 {
     width: 45%;
 }

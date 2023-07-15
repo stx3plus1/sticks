@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.linkcontainer {
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+
+.linksite {
+    display: inline-block;
+    background-color: #191919;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height: 40px;
+    text-shadow: white;
+    margin: 2px;
+}
+
+.href {
+    background-color: #191919;
+}
+
+.linksite p {
+    font-family: 'VT323', monospace;
+    color: #efefef;
+}
+
+.linksite a {
+    text-decoration: none;
+}
+
+.discord {
+    background-color: #4437db;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.yt {
+    background-color: #ff0000;
+}
+
+@media (max-width: 1180px) {
+    .linksite {
+        display: block;
+    }
+
+    .linksite p {
+        margin-top: 8px;
+    }
+}
