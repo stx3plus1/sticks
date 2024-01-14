@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=VT323&display=swap');
 
 html {
     margin-left: 10px;
@@ -30,22 +29,4 @@ button:hover {
 
 link {
     color: #efefef;
-}
-
-.specialparagraph {
-    display: inline;
- }
-
-.cursor {
-    font-size: 13px;
-    animation: 1s blink steps(1) infinite;
-  }
-
-@keyframes blink {
-    0% {
-        opacity: 100;
-    }
-    50% {
-        opacity: 0;
-    }
 }

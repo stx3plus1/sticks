@@ -1,0 +1,12 @@
+.navbar {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: grid;
+    background-color: rgba(33, 33, 40, 0.5);
+    color: white;
+    transition: 0.5s ease-in-out;
+    z-index: 99;
+}

@@ -1,5 +1,5 @@
 function start() {
-  document.getElementById('main').style.display = "none";
+  document.getElementById('postlog').style.display = "none";
 }
 
 function sleep(ms) {
@@ -18,16 +18,16 @@ function showdiv2() {
 
 function initHide() {
     document.getElementById('login').style.display = "none";
-    document.getElementById('main').style.display = "block";
+    document.getElementById('postlog').style.display = "block";
 }
 
 var i = 0;
-var txt = 'curl st1ckz.dev'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var txt = 'curl st1ckz.dev'; 
+var speed = 50; 
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("type").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeWriter, speed);
   }
