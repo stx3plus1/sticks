@@ -6,6 +6,8 @@ html {
     color: #efefef;
     font-family: 'VT323', monospace;
     overflow: hidden;
+    background: url("/content/background.png") no-repeat center fixed; 
+    background-size: cover;
 }
 
 button {

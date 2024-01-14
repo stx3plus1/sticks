@@ -20,10 +20,19 @@ function showdiv2() {
 
 function initHide() {
     document.getElementById('login').style.display = "none";
-    document.getElementById('postlog').style.display = "block";
+    document.getElementById('main').style.opacity = "0";
     document.getElementById('nav').style.transition = "0.5s ease-in-out";
     document.getElementById('nav').style.left = "0px";
 }
+
+function showFinal() {
+  document.getElementById('main').style.opacity = "1";
+  document.getElementById('postlog').style.top = "200vh";
+  document.getElementById('postlog').style.transition = "1s ease-in-out";
+  document.getElementById('postlog').style.display = "block";
+  document.getElementById('postlog').style.top = "0";
+}
+
 function newline() {
    document.getElementById('newline').style.display = "block";
 }
@@ -46,3 +55,4 @@ setTimeout("typeWriter()", 2000);
 setTimeout("newline()", 2650);
 setTimeout("showdiv2()", 3500);
 setTimeout("initHide()", 5000);
+setTimeout("showFinal()", 6000);

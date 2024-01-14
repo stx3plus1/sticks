@@ -3,11 +3,12 @@ h1 {
 }
 
 .main {
-    background-color: #090909;
+    background-color: #090909ab;
     height: 90svh;
     margin: auto;
     margin-top: 25px;
     width: 85%;
+    transition: 0.5s ease-in-out;
 }
 
 .vertical {
@@ -34,10 +35,6 @@ h1 {
 
 #login {
     margin-left: 16px;
-}
-
-#postlog {
-    padding-top: 200px;
 }
 
 .pageimages {
