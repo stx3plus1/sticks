@@ -1,6 +1,7 @@
 function start() {
   document.getElementById('postlog').style.display = "none";
   document.getElementById('nav').style.left = "-45px";
+  document.getElementById('newline').style.display = "none";
 }
 
 function sleep(ms) {
@@ -23,6 +24,9 @@ function initHide() {
     document.getElementById('nav').style.transition = "0.5s ease-in-out";
     document.getElementById('nav').style.left = "0px";
 }
+function newline() {
+   document.getElementById('newline').style.display = "block";
+}
 
 var i = 0;
 var txt = './st1cks.sh'; 
@@ -39,5 +43,6 @@ function typeWriter() {
 setTimeout("start()", 1);
 setTimeout("showdiv1()", 1000);
 setTimeout("typeWriter()", 2000);
+setTimeout("newline()", 2650);
 setTimeout("showdiv2()", 3500);
 setTimeout("initHide()", 5000);

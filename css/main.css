@@ -1,3 +1,7 @@
+h1 {
+    text-shadow: 1px 1px 1px transparent, 0 0 0.2em white, 0 0 1em white;
+}
+
 .main {
     background-color: #090909;
     height: 90svh;
@@ -21,15 +25,19 @@
 }
 
 .titlebar {
-    display: grid;
     width: 100%;
     height: 20px;
     background-color: #131313;
     text-align: center;
+    text-shadow: 1px 1px 1px transparent, 0 0 0.2em white, 0 0 1em white;
 }
 
 #login {
     margin-left: 16px;
+}
+
+#postlog {
+    padding-top: 200px;
 }
 
 .pageimages {
