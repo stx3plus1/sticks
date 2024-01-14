@@ -1,12 +1,20 @@
 .navbar {
     position: fixed;
-    width: 80px;
+    width: 40px;
     height: 100%;
     left: 0;
     top: 0;
     display: grid;
-    background-color: #090909;
+    background-color: #151515;
     color: white;
     transition: 0s ease-in-out;
     z-index: 99;
+    padding: 3px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 15px;
 }
