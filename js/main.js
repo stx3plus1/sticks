@@ -54,5 +54,5 @@ setTimeout("showdiv1()", 1000);
 setTimeout("typeWriter()", 2000);
 setTimeout("newline()", 2650);
 setTimeout("showdiv2()", 3500);
-setTimeout("initHide()", 5000);
-setTimeout("showFinal()", 6000);
+setTimeout("initHide()", 6000);
+setTimeout("showFinal()", 7000);
