@@ -32,6 +32,10 @@
     margin-left: 16px;
 }
 
+.pageimages {
+    width: 200px;
+}
+
 @media (max-width: 650px) {
 
     html {
