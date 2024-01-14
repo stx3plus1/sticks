@@ -4,7 +4,7 @@
       <body>
         <h1>st1ckz.dev source code.</h1>
         <p>The st1ckz site HTML source.</p>
-        <p>I have nothing to say. It's just st1ckz. It runs from here.</p>
+        <p>Basic HTML, CSS and JS for the site to look not that bad. All required, of course.</p>
       </body>
     </main>
   </html>

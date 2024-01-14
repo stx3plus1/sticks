@@ -22,9 +22,34 @@
 }
 
 .titlebar {
-  width: 100.9%;
-  height: 20px;
-  background-color: #131313;
-  margin: -10px;
-  text-align: center;
+    display: grid;
+    width: 85%;
+    height: 20px;
+    background-color: #131313;
+    margin: -10px;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+
+    html {
+        background-color: #090909;
+    }
+
+    .main {
+        margin-top: 0;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .titlebar {
+        width: 100vw;
+    }
+
+    .vertical {
+        padding-left: 10vw;
+    }
+
 }
