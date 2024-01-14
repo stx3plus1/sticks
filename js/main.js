@@ -38,7 +38,7 @@ function newline() {
 }
 
 var i = 0;
-var txt = './st1cks.sh'; 
+var txt = './st1ckz.sh'; 
 var speed = 50; 
 
 function typeWriter() {
