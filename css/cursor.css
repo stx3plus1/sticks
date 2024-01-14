@@ -1,12 +1,9 @@
 .cursor {
     font-size: 13px;
-    animation: 1s blink steps(1) infinite;
+    animation: .5s blink steps(1) infinite;
 }
 
 @keyframes blink {
-    0% {
-        opacity: 100;
-    }
     50% {
         opacity: 0;
     }

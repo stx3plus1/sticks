@@ -32,4 +32,5 @@
 .navimg:hover {
     -webkit-filter: invert(95%);
     filter: invert(95%);
+    width: 60px;
 }

@@ -1,6 +1,6 @@
 function start() {
   document.getElementById('postlog').style.display = "none";
-  document.getElementById('nav').style.left = "-80px";
+  document.getElementById('nav').style.left = "-45px";
 }
 
 function sleep(ms) {
@@ -20,12 +20,12 @@ function showdiv2() {
 function initHide() {
     document.getElementById('login').style.display = "none";
     document.getElementById('postlog').style.display = "block";
-    document.getElementById('nav').style.transition = "1s ease-in-out";
+    document.getElementById('nav').style.transition = "0.5s ease-in-out";
     document.getElementById('nav').style.left = "0px";
 }
 
 var i = 0;
-var txt = 'curl st1ckz.dev'; 
+var txt = './st1cks.sh'; 
 var speed = 50; 
 
 function typeWriter() {
@@ -39,5 +39,5 @@ function typeWriter() {
 setTimeout("start()", 1);
 setTimeout("showdiv1()", 1000);
 setTimeout("typeWriter()", 2000);
-setTimeout("showdiv2()", 4000);
-setTimeout("initHide()", 6000);
+setTimeout("showdiv2()", 3500);
+setTimeout("initHide()", 5000);
