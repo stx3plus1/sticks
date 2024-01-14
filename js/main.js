@@ -1,5 +1,6 @@
 function start() {
   document.getElementById('postlog').style.display = "none";
+  document.getElementById('nav').style.left = "-80px";
 }
 
 function sleep(ms) {
@@ -19,6 +20,8 @@ function showdiv2() {
 function initHide() {
     document.getElementById('login').style.display = "none";
     document.getElementById('postlog').style.display = "block";
+    document.getElementById('nav').style.transition = "1s ease-in-out";
+    document.getElementById('nav').style.left = "0px";
 }
 
 var i = 0;
