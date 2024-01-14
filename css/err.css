@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html {
+    margin-left: 10px;
+    background-color: #131313; 
+    color: #efefef;
+    font-family: 'VT323', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 100px;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    border: rgba(255, 255, 255, 0.95);
+}
+
+button:hover {
+    padding: 12px 20px;
+    background-color: rgba(230, 230, 230, 0.95);
+    border: rgba(230, 230, 230, 0.95);
+}
+
+link {
+    color: #efefef;
+}
+
+.specialparagraph {
+    display: inline;
+ }
+
+.cursor {
+    font-size: 13px;
+    animation: 1s blink steps(1) infinite;
+  }
+
+@keyframes blink {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+}
