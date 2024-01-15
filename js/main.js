@@ -1,5 +1,4 @@
 function start() {
-  document.getElementById('postlog').style.display = "none";
   document.getElementById('nav').style.left = "-45px";
   document.getElementById('newline').style.display = "none";
 }
@@ -32,7 +31,7 @@ function showFinal() {
     document.getElementById('titlebar').style.marginLeft = "40px";
   }
   document.getElementById('main').style.opacity = "1";
-  document.getElementById('postlog').style.display = "block";
+  document.getElementById('postlog').style.visibility = "visible";
 }
 
 function newline() {
