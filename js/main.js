@@ -15,13 +15,13 @@ function showdiv2() {
 }
 
 function initHide() {
-    document.getElementById('login').style.display = "none";
     document.getElementById('main').style.opacity = "0";
     document.getElementById('nav').style.transition = "0.5s ease-in-out";
     document.getElementById('nav').style.left = "0px";
 }
 
 function showFinal() {
+  document.getElementById('login').style.display = "none";
   document.getElementById('main').style.opacity = "1";
   document.getElementById('postlog').style.top = "200vh";
   document.getElementById('postlog').style.transition = "1s ease-in-out";
