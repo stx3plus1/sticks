@@ -58,7 +58,9 @@ h1 {
     }
 
     .titlebar {
-        width: 100vw;
+        /* for reference when coding javascript
+        width: 90vw;
+        margin-left: 40px; */
         margin-top: -8px;
     }
 

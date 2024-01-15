@@ -5,28 +5,34 @@ function start() {
 }
 
 function showdiv1() {
-    document.getElementById('hide1').style.visibility = "visible";
-    document.getElementById('cursor1').style.display = "none";
-    document.getElementById('cursor2').style.visibility = "visible";
+  document.getElementById('hide1').style.visibility = "visible";
+  document.getElementById('cursor1').style.display = "none";
+  document.getElementById('cursor2').style.visibility = "visible";
 }
 function showdiv2() {
-    document.getElementById('hide2').style.visibility = "visible";
-    document.getElementById('cursor2').style.display = "none";
+  document.getElementById('hide2').style.visibility = "visible";
+  document.getElementById('cursor2').style.display = "none";
 }
 
 function initHide() {
-    document.getElementById('main').style.opacity = "0";
-    document.getElementById('nav').style.transition = "0.5s ease-in-out";
-    document.getElementById('nav').style.left = "0px";
+  document.getElementById('main').style.opacity = "0";
+  document.getElementById('nav').style.transition = "0.5s ease-in-out";
+  document.getElementById('nav').style.left = "0px";
 }
 
 function showFinal() {
+  // lengthy ass function
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+
   document.getElementById('login').style.display = "none";
+  document.getElementById('titlebar').innerHTML = "Browser";
+  if (w < 650) {
+    document.getElementById('titlebar').style.width = "90vw";
+    document.getElementById('titlebar').style.marginLeft = "40px";
+  }
   document.getElementById('main').style.opacity = "1";
-  document.getElementById('postlog').style.top = "200vh";
-  document.getElementById('postlog').style.transition = "1s ease-in-out";
   document.getElementById('postlog').style.display = "block";
-  document.getElementById('postlog').style.top = "0";
 }
 
 function newline() {
@@ -35,7 +41,7 @@ function newline() {
 
 var i = 0;
 var txt = './st1ckz.sh'; 
-var speed = 50; 
+var speed = 45; 
 
 function typeWriter() {
   if (i < txt.length) {
