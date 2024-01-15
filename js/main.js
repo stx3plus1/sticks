@@ -4,10 +4,6 @@ function start() {
   document.getElementById('newline').style.display = "none";
 }
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
 function showdiv1() {
     document.getElementById('hide1').style.visibility = "visible";
     document.getElementById('cursor1').style.display = "none";
