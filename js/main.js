@@ -1,5 +1,6 @@
 function start() {
   document.getElementById('nav').style.left = "-45px";
+  document.getElementById('container').style.marginLeft = "0";
   document.getElementById('newline').style.display = "none";
 }
 
@@ -29,6 +30,8 @@ function showFinal() {
   if (w < 650) {
     document.getElementById('titlebar').style.width = "90vw";
     document.getElementById('titlebar').style.marginLeft = "40px";
+  } else {
+    document.getElementById('container').style.paddingLeft = "25px";
   }
   document.getElementById('main').style.opacity = "1";
   document.getElementById('postlog').style.visibility = "visible";
@@ -40,7 +43,7 @@ function newline() {
 
 var i = 0;
 var txt = './st1ckz.sh'; 
-var speed = 45; 
+var speed = 50; 
 
 function typeWriter() {
   if (i < txt.length) {

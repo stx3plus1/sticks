@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 html {
-    margin-left: 10px;
     background-color: #000; 
     color: #efefef;
     font-family: 'VT323', monospace;
-    background: url("/content/background.png") no-repeat center fixed; 
+    background: url("/content/bg/background4k.png") no-repeat center fixed; 
+    /* we shouldnt assume 4k really but its nothing */
     background-size: cover;
 }
 
@@ -28,4 +28,20 @@ button:hover {
 
 link {
     color: #efefef;
+}
+
+@media (max-width: 1080px) {
+
+    html {
+        background: url("/content/bg/background1080.png") no-repeat center fixed; 
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    html {
+        background: url("/content/bg/background720.png") no-repeat center fixed; 
+    }
+
 }
