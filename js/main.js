@@ -21,7 +21,7 @@ function initHide() {
 }
 
 function showFinal() {
-  // lengthy ass function
+  // lengthy function
   var w = window.innerWidth;
   var h = window.innerHeight;
 
@@ -42,7 +42,7 @@ function newline() {
 }
 
 var i = 0;
-var txt = './st1ckz.sh'; 
+var txt = 'st1cks stuf'; 
 var speed = 50; 
 
 function typeWriter() {

@@ -19,20 +19,21 @@ h1 {
     }
 }
 
+.homecon {
+    padding-left: 25px;
+}
+
 #container {
     width: 100%;
     height: 100%;
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+
 }
 
 .main {
     background-color: #090909ab;
     height: 90svh;
-    margin: auto;
     width: 85%;
+    margin: auto;
     transition: 0.5s ease-in-out;
     margin-top: 4svh;
     margin-bottom: 4svh;
@@ -40,6 +41,7 @@ h1 {
 
 .vertical {
     margin: 0;
+    margin-left: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,10 +56,16 @@ h1 {
 
 .titlebar {
     width: 100%;
+    margin-left: 0;
     height: 20px;
     background-color: #131313;
-    text-align: center;
     text-shadow: 1px 1px 1px transparent, 0 0 0.2em white, 0 0 1em white;
+}
+
+.titlebar p {
+    top: 0;
+    left: 0;
+    text-align: center;
 }
 
 #login {
@@ -76,24 +84,35 @@ h1 {
         margin-left: -6px;
     }
 
+
     .main {
         width: 100%;
+        height: 100%;
         margin: 0;
         padding: 0;
         background-color: transparent;
     }
 
     .titlebar {
-        width: 105%;
+        width: 100%;
         margin-left: 0;
         /* for reference when coding javascript
         width: 90vw;
         margin-left: 40px; */
-        margin-top: -8px;
+        margin-top: -16px;
     }
 
     .vertical {
         padding-left: 10vw;
+        margin-left: 0;
+    }
+
+}
+
+@media (max-height: 600px) {
+    
+    .pageimages {
+        width: 10vh;
     }
 
 }
