@@ -26,7 +26,7 @@ function showFinal() {
   var h = window.innerHeight;
 
   document.getElementById('login').style.display = "none";
-  document.getElementById('titlebar').innerHTML = "Browser";
+  document.getElementById('titletext').innerHTML = "Browser";
   if (w < 650) {
     document.getElementById('titlebar').style.width = "90vw";
     document.getElementById('titlebar').style.marginLeft = "40px";
