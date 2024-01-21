@@ -26,12 +26,13 @@ button:hover {
     border: rgba(230, 230, 230, 0.95);
 }
 
-link {
+.link {
     color: #efefef;
+    
     text-decoration: none;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1080px) and (max-height: 1920px) {
 
     html {
         background: url("/content/bg/background1080.png") no-repeat center fixed; 
@@ -39,7 +40,7 @@ link {
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 720px) and (max-height: 1280px) {
 
     html {
         background: url("/content/bg/background720.png") no-repeat center fixed; 
