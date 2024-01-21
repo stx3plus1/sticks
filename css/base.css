@@ -28,6 +28,7 @@ button:hover {
 
 link {
     color: #efefef;
+    text-decoration: none;
 }
 
 @media (max-width: 1080px) {

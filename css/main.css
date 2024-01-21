@@ -2,6 +2,13 @@ h1 {
     text-shadow: 1px 1px 1px transparent, 0 0 0.2em white, 0 0 1em white;
 }
 
+.bg {
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 .cursor {
     background-color: #ffffff;
     width: 8px;
@@ -46,6 +53,8 @@ h1 {
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
