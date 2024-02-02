@@ -27,6 +27,12 @@ body {
     }
 }
 
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
 .homecon {
     padding-left: 25px;
 }
