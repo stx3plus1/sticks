@@ -42,7 +42,7 @@ function newline() {
 }
 
 var i = 0;
-var txt = 'st1cks stuf'; 
+var txt = './sticks.sh -v'; 
 var speed = 50; 
 
 function typeWriter() {
@@ -56,7 +56,7 @@ function typeWriter() {
 setTimeout("start()", 1);
 setTimeout("showdiv1()", 1000);
 setTimeout("typeWriter()", 2000);
-setTimeout("newline()", 2650);
+setTimeout("newline()", 2900);
 setTimeout("showdiv2()", 3500);
-setTimeout("initHide()", 6000);
-setTimeout("showFinal()", 7000);
+setTimeout("initHide()", 5000);
+setTimeout("showFinal()", 6000);
