@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 html {
-    background-color: #000; 
+    background-color: #060606; 
     color: #efefef;
     font-family: 'VT323', monospace;
     background: url("/content/bg/background4k.png") no-repeat center fixed; 
@@ -31,6 +31,7 @@ button:hover {
     
     text-decoration: none;
 }
+
 
 @media (max-width: 1080px) and (max-height: 1920px) {
 
