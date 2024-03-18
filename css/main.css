@@ -44,7 +44,9 @@ body {
 }
 
 .main {
-    background-color: #13131373;
+    background-color: #1313134a;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     height: 90svh;
     width: 85%;
     margin: auto;

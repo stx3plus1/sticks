@@ -15,9 +15,10 @@ button {
     padding: 12px 16px;
     border-radius: 8px;
     transition: 0.5s;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgb(148, 148, 148);
     color: #000;
     border: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 5px #010101, inset 0 35px 0.4em rgb(255, 255, 255);
     margin: 5px;
 }
 
