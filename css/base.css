@@ -4,9 +4,6 @@ html {
     background-color: #060606; 
     color: #efefef;
     font-family: 'VT323', monospace;
-    background: url("/content/bg/background4k.png") no-repeat center fixed; 
-    /* we shouldnt assume 4k really but its nothing */
-    background-size: cover;
 }
 
 button {
@@ -29,23 +26,5 @@ button:hover {
 
 .link {
     color: #efefef;
-    
     text-decoration: none;
-}
-
-
-@media (max-width: 1080px) and (max-height: 1920px) {
-
-    html {
-        background: url("/content/bg/background1080.png") no-repeat center fixed; 
-    }
-
-}
-
-@media (max-width: 720px) and (max-height: 1280px) {
-
-    html {
-        background: url("/content/bg/background720.png") no-repeat center fixed; 
-    }
-
 }
