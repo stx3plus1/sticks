@@ -2,12 +2,10 @@ html {
     background-color: #0e1120;
     color: rgb(220, 218, 255);
     font-family: monospace;
+    font-size: 12px;
     overflow: hidden;
 }
 p {
-    font-size: 12px;
-    font-family: monospace;
-    color: rgb(220, 218, 255);
     margin: 0;
     margin-right: 5.5px;
 }
