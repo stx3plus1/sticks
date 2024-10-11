@@ -61,7 +61,7 @@ function newLineOfOutput() {
         scrolltop();
         return;
     }
-    if (document.getElementById("shell").value == "strfetch") {
+    if (document.getElementById("shell").value == "strlx") {
         p.innerHTML = "$ " + document.getElementById("shell").value + "<br>You're funny.";
         parent.appendChild(p);
         document.getElementById("shell").value = "";
