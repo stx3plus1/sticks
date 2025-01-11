@@ -1,33 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" id="html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/split.css">
+    <link rel="stylesheet" href="css/tooltip.css">
     <link rel="icon" href="home.png">
-    <script src="js/main.js"></script>
-    <title>termisite | sticks.lol</title>
+    <title>Home | sticks.lol</title>
 </head>
 <body>
-    <div id="prompt">
-        <p>
-            <h1 id="text">Welcome to the terminal!</h1>
-            <p id="text">
+    <div class="container">
+        <div class="split split1">
+            <div class="nav">
+                <div class="innernav">
+                    <a href="/"><p>/</p></a>
+                    <a href="projects"><p>projects</p></a>
+                    <a href="https://github.com/stx3plus1"><p>github</p></a>
+                    <a id="button" href="javascript:location.reload()"><p>boooom</p></a>
+                </div>
+            </div>
+            <h1 class="title">WELCOME</h1>
+            <div class="imgcont">
+                <img src="content/welcome.png" draggable="false">
+            </div>
+        </div>
+        <div class="split split2">
+            <div class="content">
+                <h1 class="txt2">WELCOME</h1>
+                <p>You appear to have stumbled across my site. Do not worry, as I'm just as confused as you are on how you got here.</p>
                 <br>
-                To get started, type "help", or just guess your way around!
+                <p>I am your average programming demon, as I know C, some C++, Desmos (the graphing calculator) and the best of all, Scratch. These things are why I still hang on in today's world.</p>
                 <br>
-                P.S. the actual projects page can be found at <a href="https://sticks.lol/projects/">https://sticks.lol/projects/</a>
+                <p>Then there's my hardware. PC specs? Sure!</p>
+                <p>Lenovo Thinkpad L490</p>
+                <p>Intel Core i5-8365U</p>
+                <p>16GB DDR4 SODIMM @ 2133 MT/s or 1066 MHz</p>
+                <p>256GB of bloatware</p>
+                <p>And a terrible TN display to top it off.</p>
                 <br>
-                This is just a little fun I decided to have and is in NO way a good replacement.
+                <p>I mainly have interest in Windows and Linux development, as well as unconventional means of programming, like Scratch and Desmos (yes, a graphing calculator). This also includes doing conventional programming, on the most cursed devices.</p>
                 <br>
+                <p>For example, I programmed <a class="tooltip" href="https://github.com/stx3plus1/strlx">strlx<span class="tip">click to visit</span></a> for a couple of weeks on an abused RPi Zero 2W with a cheap screen and keyboard attached (Harmonica Linux!)</p>
                 <br>
-            </p>
-        </p>
-        <!-- prompt items are spawned in here as p elements -->
-    </div>
-    <div id="flexcontainer">
-        <p id="dollar">$ </p>
-        <input autofocus id="shell" type="text" autocomplete="off" onkeydown="parse()" style="height: 16px; width: 95%"></textarea>
+                <p>Why? My interest in programming was sparked by the time I bypassed Amazon security as a child by sideloading a file explorer app. Seriously.</p>
+                <br>
+                <p>If you'd like to see something new, check out my project page.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ea saepe reiciendis sapiente natus cupiditate voluptatem, odio a aliquam at dolores obcaecati debitis eius iure expedita, aspernatur alias quod modi.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

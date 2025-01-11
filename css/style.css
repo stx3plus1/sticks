@@ -1,29 +1,41 @@
 html {
-    background-color: #0e1120;
+    background-color: #000000;
     color: rgb(220, 218, 255);
     font-family: monospace;
-    font-size: 12px;
-    overflow: hidden;
+    font-size: 14px;
+    overflow: auto;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
 }
 p {
     margin: 0;
-    margin-right: 5.5px;
+    font-size: 1.2em;
 }
 a {
     color: rgb(220, 218, 255);
+    text-decoration: dotted underline;
 }
-input {
-    border: 0;
-    font-size: 12px;
-    font-family: monospace;
-    color: rgb(220, 218, 255);
-    background-color: transparent;
-    margin-top: -0.1px;
+body {
+    margin: 0;
 }
-input:focus {
-    outline:none!important;
+
+::-webkit-scrollbar {
+    width: 5px;
 }
-#flexcontainer {
-    display: flex;
-    flex-direction: row;
+::-webkit-scrollbar-track {
+    background: #1f243f;
+    visibility: hidden;
+}
+::-webkit-scrollbar-track:hover {
+    visibility: visible;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    visibility: hidden;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    visibility: visible;
 }

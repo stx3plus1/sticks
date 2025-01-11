@@ -4,39 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/split.css">
+    <link rel="stylesheet" href="css/tooltip.css">
     <link rel="icon" href="home.png">
-    <title>Projects | sticks.lol</title>
+    <title>Home | sticks.lol</title>
 </head>
 <body>
-    <h1>Projects</h1>
-    <small>in case you can't use a terminal...</small>
-    <br>
-    <small><a href="/">or go back to the terminal</a></small>
-    <br><br>
-    <p>
-        Currently, I have a few projects I share around.
-        <br>
-        Some major ones include:
-        <br><br>
-        - Windows Limeover
-        <br>
-        - Internet Finder
-        <br>
-        - strfetch
-        <br>
-        - This damn site
-        <br>
-        - RIP st4rzOS lol
-        <br><br>
-        Downloads are temporarily here.
-        <br>
-        <a href="https://dl.sticks.lol/Limeover%20M3.zip">Download Limeover M3</a>
-        -
-        <a href="https://dl.sticks.lol/InternetFinder40.zip">Download Internet Finder 40</a>
-        -
-        <a href="https://github.com/stx3plus1/strfetch">Get strfetch from GitHub</a>
-        <br><br>
-        Enough garbage lol... get back to something productive :D
-    </p>
+    <div class="container">
+        <div class="split split1">
+            <div class="nav">
+                <div class="innernav">
+                    <a href="/"><p>/</p></a>
+                    <a href="projects"><p>projects</p></a>
+                    <a href="https://github.com/stx3plus1"><p>github</p></a>
+                    <a id="button" href="javascript:location.reload()"><p>boooom</p></a>
+                </div>
+            </div>
+            <h1 class="title">PROJECTS</h1>
+            <img src="content/projects.png" draggable="false">
+        </div>
+        <div class="split split2">
+            <div class="content">
+                <h1>PROJECTS</h1>
+                <p>Throughout the times, I have created a couple of projects. However, barely ANY have actually released because my motivation level is as stable as a seismograph in use. Too technical? Shit.</p>
+                <br>
+                <p>Some of my most recent GitHub projects include:</p>
+                <br>
+                <p>
+                <a style="text-decoration: underline;" href="https://github.com/stx3plus1/strlx">strlx</a> - a simple program for displaying system information
+                <br>
+                <a style="text-decoration: underline;" href="https://github.com/stx3plus1/CustomWelcome95">CustomWelcome95</a> - an abomination of a program that greets you with whatever you want
+                <br>
+                <a style="text-decoration: underline;" href="https://github.com/stx3plus1/sticks">sticks</a> - this very site you are on right now. the source code is pretty cool yk
+                <br>
+                <a style="text-decoration: underline;" href="https://github.com/stx3plus1/ircdk">ircdk</a> - a basic IRC client in C that's pretty insane
+                <br>
+                and still lots to come.. SOON...
+                </p>
+                <br>
+                <p>In previous times, I attempted numerous development systems, said screw it, and eventually wound up making my own kernel. That's how stupid my projects have gone in past. I don't know how long I will have the willing to do this sort of thing where I'm in an infinite loop of programming with other stuff mixed in, but it better not stop soon, as I have some actually cool and useful projects peeking the horizon.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

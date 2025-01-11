@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/split.css">
+    <link rel="stylesheet" href="css/tooltip.css">
     <link rel="icon" href="home.png">
     <title>404 | sticks.lol</title>
 </head>
 <body>
-    <h1>Whoops.</h1>
-    <small><a href="/">go back to the terminal...</a></small>
-    <br><br>
-    <p>
-        Couldn't find what you are looking for!
-        <br>
-        Press "go back to terminal" to get things running as expected again!
-    </p>
+    <div class="container">
+        <div class="split split1">
+            <div class="nav">
+                <div class="innernav">
+                    <a href="/"><p>/</p></a>
+                    <a href="projects"><p>projects</p></a>
+                    <a href="https://github.com/stx3plus1"><p>github</p></a>
+                    <a id="button" href="javascript:location.reload()"><p>boooom</p></a>
+                </div>
+            </div>
+            <h1 class="title">GUH?</h1>
+        </div>
+        <div class="split split2">
+            <div class="content">
+                <h1 class="txt2">404</h1>
+                <p>Sorry, what?</p>
+                <br>
+                <p>Couldn't find that. What were you trying to do?</p>
+                <br>
+                <a class="tooltip" href="javascript:history.back()">Go back..?<span class="tip">click to visit</span></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
